@@ -34,7 +34,7 @@
                     <ul class="nav navbar-nav">
                         <li><a href="{{ url('/home') }}">Home</a></li>
                         <li><a href="#">Task List</a></li>
-                        <li><a href="#">Create a Task</a></li>
+                        <li><a href="{{ url('/tasks/create')}}">Create a Task</a></li>
                     </ul>
                     <!-- Right Side Of Navbar -->
                     <ul class="nav navbar-nav navbar-right">

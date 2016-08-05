@@ -5772,6 +5772,10 @@ hr {
   background-color: #2b3e50;
   color: #ffffff; }
 
+.form-control:focus {
+  border-color: #df691a;
+  box-shadow: inset 0 1px 1px #df691a, 0 0 8px #df691a; }
+
 p {
   color: #ffffff; }
 
