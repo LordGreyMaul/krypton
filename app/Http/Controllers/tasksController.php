@@ -10,19 +10,16 @@ use Carbon\Carbon;
 
 class tasksController extends Controller
 {
-	// Show all tasks
 	public function index() 
 	{
 		$tasks = tasks::latest()->published()->get();
-		return view(tasks.index , compact(tasks));
+		return view('tasks.index' , compact('tasks'));
 	}
 
-	//Show tasks by ID
-    public function show($id) 
-    {
-      $tasks = tasks::findOrFail($id); 
-      Return view('articles.show' , compact('tasks'));
-    }
+	public function show()
+	{
+		return view('tasks.show');
+	}
 
 	// Create a task controller
 	public function create() 

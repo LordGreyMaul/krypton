@@ -5822,6 +5822,20 @@ BUTTONS
     background-color: #5cb85c;
     border-color: #5cb85c; }
 
+.btn-secondary {
+  color: #ffffff;
+  background-color: #5cb85c;
+  border-color: #5cb85c; }
+  .btn-secondary:hover {
+    background-color: #5bc0de;
+    border-color: #5bc0de; }
+  .btn-secondary:focus {
+    background-color: #5bc0de;
+    border-color: #5bc0de; }
+  .btn-secondary:active {
+    background-color: #5bc0de;
+    border-color: #5bc0de; }
+
 .btn-link {
   color: #5bc0de; }
   .btn-link:hover {
@@ -5830,5 +5844,9 @@ BUTTONS
     color: #5bc0de; }
   .btn-link:active {
     color: #5bc0de; }
+
+thead {
+  background: #df691a;
+  color: #ffffff; }
 
 /*# sourceMappingURL=app.css.map */
