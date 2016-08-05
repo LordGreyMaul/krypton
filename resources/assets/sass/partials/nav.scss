@@ -1,0 +1,18 @@
+.navbar-inverse {
+  background-color: $primary;
+  border-color: transparent;
+
+  .navbar-brand {
+    color: $bodyFontColor;
+  }
+
+  .navbar-nav {
+
+    li {
+
+      a {
+        color: $bodyFontColor;
+      }
+    }
+  }
+}

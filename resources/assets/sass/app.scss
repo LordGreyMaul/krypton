@@ -1,2 +1,20 @@
-@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+/* ===============
+   BOOTSTRAP
+   =============== */
+  @import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+
+/* ===============
+   GLOBAL SETTINGS
+   =============== */
+  @import "partials/config";
+
+/* ===============
+    STYLES
+   =============== */
+  @import "partials/global";
+  @import "partials/type";
+  @import "partials/nav";
+  @import "partials/buttons";
+
+
 

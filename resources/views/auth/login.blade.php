@@ -3,9 +3,11 @@
 @section('content')
 <div class="container">
     <div class="row">
-        <div class="col-md-12">
+        <div class="col-md-12 text-center">
+            <hr>
             <h1>Welcome to Krypton</h1>
-            <p>A working user managemnt system</p>
+            <p>Please login to an out of this world task manager</p>
+            <hr>
         </div>
     </div>
     <div class="row">

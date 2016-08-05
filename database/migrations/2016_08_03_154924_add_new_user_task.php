@@ -14,7 +14,13 @@ class AddNewUserTask extends Migration
     {
         Schema::create('tasks', function (Blueprint $table) {
             $table->increments('id');
+            $table->string('title');
+            $table->text('body');
+            $table->text('priority');
+            $table->text('completed');
             $table->timestamps();
+            $table->timestamp('published_at');
+
         });
     }
 
