@@ -31,7 +31,21 @@ class tasksController extends Controller
     public function store(TasksRequest $request) 
     {
         tasks::create($request->all());
-		return redirect('/home');
-    }  
+		return redirect('/tasks');
+    } 
+
+     // Edit tasks
+    public function edit($id) 
+    {
+        $tasks = tasks::findOrFail($id);
+        return view('tasks.edit' , compact('tasks'));
+    }
+     //update tasks
+    public function update($id, TasksRequest $request)
+    {
+       $tasks = tasks::findOrFail($id);
+       $tasks->update($request->all()); 
+       return redirect('/tasks');
+    } 
 
 }
