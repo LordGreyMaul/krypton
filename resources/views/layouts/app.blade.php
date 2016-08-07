@@ -33,8 +33,13 @@
                     <!-- Left Side Of Navbar -->
                     <ul class="nav navbar-nav">
                         <li><a href="{{ url('/home') }}">Home</a></li>
-                        <li><a href="#">Task List</a></li>
+                        @if (Auth::guest())
+                        <li></li>
+                        <li></li>
+                        @else
+                        <li><a href="{{ url('/tasks')}}">Task List</a></li>
                         <li><a href="{{ url('/tasks/create')}}">Create a Task</a></li>
+                        @endif
                     </ul>
                     <!-- Right Side Of Navbar -->
                     <ul class="nav navbar-nav navbar-right">
