@@ -5837,7 +5837,7 @@ h1 {
   color: #5bc0de; }
 
 .logout {
-  color: #df691a; }
+  color: #df691a !important; }
 
 thead {
   background: #df691a;
