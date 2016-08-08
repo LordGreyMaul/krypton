@@ -55,4 +55,11 @@ class TasksController extends Controller
 	    return redirect('/tasks')->with('message', 'Successfully deleted!');   
 	} 
 
+	//View completed tasks
+	public function completed(){
+		$tasks = Tasks::where('completed' , 'yes')->get();
+		return view('tasks.completed' , compact('tasks'));
+
+	}
+
 }

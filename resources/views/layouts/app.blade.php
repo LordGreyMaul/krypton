@@ -39,6 +39,7 @@
                         @else
                         <li><a href="{{ url('/tasks')}}">Task List</a></li>
                         <li><a href="{{ url('/tasks/create')}}">Create a Task</a></li>
+                        <li><a href="{{ url('/tasks/completed')}}">Completed Tasks</li>
                         @endif
                     </ul>
                     <!-- Right Side Of Navbar -->

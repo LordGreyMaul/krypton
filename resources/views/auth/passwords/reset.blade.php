@@ -2,6 +2,13 @@
 
 @section('content')
 <div class="container">
+<div class="row">
+    <div class="col-md-12">
+        <hr>
+        <h1>Reset Password</h1>
+        <hr>
+    </div>
+</div>
     <div class="row">
         <div class="col-md-8 col-md-offset-2">
             <div class="panel panel-default">

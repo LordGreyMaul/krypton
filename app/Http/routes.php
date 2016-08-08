@@ -20,3 +20,4 @@ Route::auth();
 Route::get('/home', 'HomeController@index');
 
 Route::resource('tasks', 'TasksController');
+Route::get('tasks/completed' , 'TasksController@completed');

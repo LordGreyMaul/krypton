@@ -36,4 +36,4 @@ class Tasks extends Model
     {
         return static::where(compact('id'))->first();
     }
-}
+   }
