@@ -36,9 +36,6 @@
 	
 	{!! Form::submit($submitButtonText, ['class' => 'btn btn-primary form-control']) !!}
 	<hr>
-	
-	{{ Form::submit('Delete', ['class' => 'btn btn-danger form-control']) }}
-	
 </div>
 <script>
 CKEDITOR.replace( 'body' );
