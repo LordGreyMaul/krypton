@@ -1,0 +1,66 @@
+/* ===============
+BUTTONS
+=============== */
+.btn {
+display: inline-block;
+margin-bottom: 0;
+font-weight: normal;
+text-align: center;
+vertical-align: middle;
+cursor: pointer;
+background-image: none;
+border: 1px solid transparent;
+white-space: nowrap;
+padding: 6px 12px;
+font-size: 14px;
+line-height: 1.428571429;
+border-radius: 0px;
+}
+
+.btn-primary {
+	color: $bodyFontColor;
+    background-color: $primary;
+    border-color: $primary;
+    &:hover {
+    	background-color: $secondary;
+    	border-color: $secondary;
+    }
+    &:focus {
+    	background-color: $secondary;
+    	border-color: $secondary;
+    }
+    &:active {
+    	background-color: $secondary;
+    	border-color: $secondary;
+    }
+}
+.btn-secondary {
+    color: $bodyFontColor;
+    background-color: $secondary;
+    border-color: $secondary;
+    &:hover {
+        background-color: $tertiary;
+        border-color: $tertiary;
+    }
+    &:focus {
+        background-color: $tertiary;
+        border-color: $tertiary;
+    }
+    &:active {
+        background-color: $tertiary;
+        border-color: $tertiary;
+    }
+}
+.btn-link {
+    color: $tertiary;
+
+    &:hover {
+    	color: $tertiary;
+    }
+    &:focus {
+    	color: $tertiary;
+    }
+    &:active {
+    	color:$tertiary;
+    }
+}

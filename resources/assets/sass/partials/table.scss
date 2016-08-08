@@ -1,0 +1,17 @@
+thead {
+	background: $primary;
+	color: $bodyFontColor;
+}
+
+.High {
+    background: red;
+    text-align: center;
+}
+.Medium {
+    background: $primary;
+    text-align: center;
+}
+.Low {
+    background: $secondary;
+    text-align: center;
+}
