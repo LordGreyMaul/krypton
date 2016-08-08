@@ -20,8 +20,8 @@
 </div>
 <!-- set to complete -->
 <div class="form-group">
-	<label for="complete">Complete:</label>
-	<select id="complete" name="complete" class="form-control">
+	<label for="completed">Complete:</label>
+	<select id="completed" name="completed" class="form-control">
 		<option value="Yes">Yes</option>
 		<option value="No">No</option>
 	</select>
