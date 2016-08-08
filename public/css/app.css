@@ -5790,60 +5790,54 @@ h1 {
   .navbar-inverse .navbar-nav li a {
     color: #ffffff; }
 
-/* ===============
-BUTTONS
-=============== */
-.btn {
-  display: inline-block;
-  margin-bottom: 0;
-  font-weight: normal;
-  text-align: center;
-  vertical-align: middle;
-  cursor: pointer;
-  background-image: none;
-  border: 1px solid transparent;
-  white-space: nowrap;
-  padding: 6px 12px;
-  font-size: 14px;
-  line-height: 1.428571429;
-  border-radius: 0px; }
-
 .btn-primary {
   color: #ffffff;
   background-color: #df691a;
   border-color: #df691a; }
-  .btn-primary:hover {
-    background-color: #5cb85c;
-    border-color: #5cb85c; }
-  .btn-primary:focus {
-    background-color: #5cb85c;
-    border-color: #5cb85c; }
-  .btn-primary:active {
-    background-color: #5cb85c;
-    border-color: #5cb85c; }
+
+.btn-primary:hover {
+  background-color: #5cb85c;
+  border-color: #5cb85c; }
+
+.btn-primary:focus {
+  background-color: #5cb85c;
+  border-color: #5cb85c; }
+
+.btn-primary:active {
+  background-color: #5cb85c;
+  border-color: #5cb85c; }
 
 .btn-secondary {
   color: #ffffff;
   background-color: #5cb85c;
   border-color: #5cb85c; }
-  .btn-secondary:hover {
-    background-color: #5bc0de;
-    border-color: #5bc0de; }
-  .btn-secondary:focus {
-    background-color: #5bc0de;
-    border-color: #5bc0de; }
-  .btn-secondary:active {
-    background-color: #5bc0de;
-    border-color: #5bc0de; }
+
+.btn-secondary:hover {
+  background-color: #5bc0de;
+  border-color: #5bc0de; }
+
+.btn-secondary:focus {
+  background-color: #5bc0de;
+  border-color: #5bc0de; }
+
+.btn-secondary:active {
+  background-color: #5bc0de;
+  border-color: #5bc0de; }
 
 .btn-link {
   color: #5bc0de; }
-  .btn-link:hover {
-    color: #5bc0de; }
-  .btn-link:focus {
-    color: #5bc0de; }
-  .btn-link:active {
-    color: #5bc0de; }
+
+.btn-link:hover {
+  color: #5bc0de; }
+
+.btn-link:focus {
+  color: #5bc0de; }
+
+.btn-link:active {
+  color: #5bc0de; }
+
+.logout {
+  color: #df691a; }
 
 thead {
   background: #df691a;
